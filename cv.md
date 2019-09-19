@@ -33,12 +33,10 @@
       ####################
     ...
 ```
-
 6. WEB: internal website of the company division.
 7. Higher education and various courses in system administration: 
-* plan&adm win2k8+AD, 
-* msexchange, 
-* cisco CCNA ICND
-
-* and much more.
+- plan&adm win2k8+AD, 
+- msexchange, 
+- cisco CCNA ICND
+- and much more.
 8. So so. I wish it were better +)

@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+    color: #0f0d83;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+h2::after {
+    content: ":";
+
+}
+
+img {
+    float: right;
+}
+
+.conteiner>p {
+    display: inline-block;
+}

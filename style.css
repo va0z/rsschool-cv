@@ -24,3 +24,13 @@ img {
 .conteiner>p {
     display: inline-block;
 }
+
+xmp {
+    overflow-x: visible;
+    overflow-y: hidden;
+    margin: 0 10%;
+    height: 450px; 
+    max-width: 90%;
+    padding: 8px; 
+    border: 1px solid #ccc;
+}

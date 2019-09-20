@@ -33,31 +33,31 @@
     <div class="conteiner">
         <h2>Code examples (fragment)</h2>
         <p>Parsing news site for internal web site:</p>
-        <code><pre>   
-            #process a link to a specific news item
-            for($i=0; $i<count($out[0]); $i++)
-            {
-                $link=$link_b[$i][1][0];
-                $titl=$titl_b[$i][1][0];
-                if(!ereg("http://",$link) and !ereg("https://",$link)){$link=$news_url_root.$link;}
-                if(ereg("3dnews",$link)){$link=$link."print/";} //edit link
-            
-                #search link in base
-                $bzcount=file($baza);
-                $link_new=$link."\n";
-                if(in_array($link_new, $bzcount))  
-                {
-                    echo "!!!".$link." - already exists in base \n";
-                    continue;
-                }    #link there is
-                fwrite($bz, $link."\n *** ".$titl."\n"); #save link in base
-            
-                ### loging ###
-                echo "----------------------------------\n";
-                echo "link:=> ".$link." saved in base \n";
-                fwrite($log, "link:=> ".$link." saved in base \n"); 
-                ####################
-            </pre></code>
+        <code><xmp>   
+    #process a link to a specific news item
+    for($i=0; $i<count($out[0]); $i++)
+    {
+        $link=$link_b[$i][1][0];
+        $titl=$titl_b[$i][1][0];
+        if(!ereg("http://",$link) and !ereg("https://",$link)){$link=$news_url_root.$link;}
+        if(ereg("3dnews",$link)){$link=$link."print/";} //edit link
+    
+        #search link in base
+        $bzcount=file($baza);
+        $link_new=$link."\n";
+        if(in_array($link_new, $bzcount))  
+        {
+            echo "!!!".$link." - already exists in base \n";
+            continue;
+        }    #link there is
+        fwrite($bz, $link."\n *** ".$titl."\n"); #save link in base
+    
+        ### loging ###
+        echo "----------------------------------\n";
+        echo "link:=> ".$link." saved in base \n";
+        fwrite($log, "link:=> ".$link." saved in base \n"); 
+        ####################
+            </xmp></code>
    </div>
    
    <div class="conteiner">

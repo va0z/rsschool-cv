@@ -4,7 +4,7 @@
  Dmitrii M
 ## Contact Info
 va0z@ya.ru
-## Symmary
+## Summary
 Hone existing skills HTML & CSS, lern JS. Become a high-level web developer  =) and it is possible to find a job. I have a little experience in website development, for a long time I am a system administrator of a large organization.
 ## Skills
 WEB skills: html and some css, I also have experience in php and mysql.
